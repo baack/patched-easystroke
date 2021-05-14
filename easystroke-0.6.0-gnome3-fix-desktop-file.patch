@@ -1,0 +1,12 @@
+diff -up easystroke-0.6.0/easystroke.desktop.in.fixme easystroke-0.6.0/easystroke.desktop.in
+--- easystroke-0.6.0/easystroke.desktop.in.fixme	2013-11-19 10:02:02.840685634 -0500
++++ easystroke-0.6.0/easystroke.desktop.in	2013-11-19 10:02:14.024672316 -0500
+@@ -6,7 +6,7 @@ Terminal=false
+ Exec=easystroke
+ Icon=easystroke
+ Categories=GTK;Utility;Accessibility;
+-Actions=About;Enable;Disable;Quit
++Actions=About;Enable;Disable;Quit;
+ _Comment=Control your desktop using mouse gestures
+ 
+ [Desktop Action About]

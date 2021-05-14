@@ -1,0 +1,11 @@
+--- win.orig.cc	2018-12-02 16:23:58.813146854 +0100
++++ win.cc	2018-12-02 16:24:01.837105642 +0100
+@@ -275,7 +275,7 @@
+ }
+ 
+ void Win::set_icon(RStroke stroke, bool invert) {
+-	if (!icon)
++	if (!icon || icon->get_size() <= 0)
+ 		return;
+ 	icon->set(stroke->draw(icon->get_size(), 2.0, invert));
+ 	set_timeout(10000);
